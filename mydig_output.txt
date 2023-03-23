@@ -1,0 +1,46 @@
+
+--------------------------------------------
+Input: python3 mydig.py google.co.in A
+Output:
+
+QUESTION SECTION:
+google.co.in IN A
+
+ANSWER SECTION:
+google.co.in   IN  216.239.32.10
+
+Query time: 95.21 msec
+WHEN: 2022-09-20 17:45:54.395252
+MSG SIZE rcvd: 88
+
+
+--------------------------------------------
+Input: python3 mydig.py google.com MX
+Output:
+
+QUESTION SECTION:
+google.com IN MX
+
+ANSWER SECTION:
+google.com   IN  10 smtp.google.com.
+
+Query time: 76.13 msec
+WHEN: 2022-09-20 17:44:24.413554
+MSG SIZE rcvd: 88
+
+--------------------------------------------
+Input: python3 mydig.py google.com NS
+Output:
+
+QUESTION SECTION:
+google.com IN NS
+
+ANSWER SECTION:
+google.com   IN  ns4.google.com.
+google.com   IN  ns1.google.com.
+google.com   IN  ns2.google.com.
+google.com   IN  ns3.google.com.
+
+Query time: 70.36 msec
+WHEN: 2022-09-20 17:45:12.589372
+MSG SIZE rcvd: 88
